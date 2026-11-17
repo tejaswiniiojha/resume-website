@@ -1,0 +1,136 @@
+
+
+/* Whole page */
+body {
+  margin: 0;
+  background-color: #FFF8E7;
+  color: #4A4458;
+  font-family: 'Nunito', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #FADADD;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+}
+
+.tagline {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-top: 15px;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #E6DDF5;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 6px 15px;
+  color: #4A4458;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+nav a:hover {
+  background-color: #D6EAF8;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+section {
+  background-color: white;
+  border: 2px solid #D6EAF8;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+article {
+  background-color: #F3EEFA;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+article h3 {
+  margin: 0 0 5px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #D6EAF8;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #D6EAF8;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.gallery figure {
+  margin: 0;
+  width: 220px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Links */
+a {
+  color: #8E6BBF;
+}
+
+/* Footer */
+footer {
+  background-color: #FADADD;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}
